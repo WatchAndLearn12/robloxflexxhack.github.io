@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+}
+/* EN ÜST */
+.enust{
+   padding: 20px 20px;
+    display: flex;
+    background-color: rgb(21, 1, 21);
+    border-bottom: 5px black solid;
+}
+.enustresim img{
+    border-radius: 50%;
+}
+.enustresim h1{
+    margin-left: 15px;
+    font-size: 70px;
+}
+@media screen and (min-width:300px) and (max-width: 1500px){
+    .enustresim img{
+        font-size: 20px;
+    }
+    .enustresim h1{
+      font-size: 50px;
+    }
+    .ortaic1{
+        color: white;
+        text-align: left;
+    }
+  }   
+ /* EN ÜST BİTİŞ */
+ 
+  /* ORTA BAŞLANGIÇ */
+.orta{
+    width: 100%;
+    background-color: rgb(21, 1, 21);
+    height: 700px;
+    border-bottom: 5px black solid;
+} 
+.ortaic1{
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+}
+.ortaic2 {
+    color: white !important;
+    margin-top: 175px;
+    font-size: 50px;
+    text-align: center;
+}
+.fs-2{
+    font-size: 50px !important;
+}
+.ortaic2 button{
+    padding: 15px 25px !important;
+    font-size: 25px;
+}
+ /* ORTA BİTİŞ */
+
+ /* RESİMLER BAŞLANGIÇ */
+  @media screen and (min-width:300px) and (max-width: 850px){ 
+
+    .resimler2 img{
+        width: 35vh;
+        margin: 15px;
+    
+    }
+    .resimler2 P{
+        width: 35vh;
+        color: white;
+        font-size: 5px;
+      }
+
+      .ortakresimleric1 img{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 30px;
+      }
+      .ortakresimleric2{
+          width: 100% !important;
+      }
+      .footer{
+          font-size: 10px;
+      }
+    }
+
+.footer{
+        background-color: rgb(53, 1, 53);
+        padding: 25px;
+        text-align: center;
+        color: white;
+    }
